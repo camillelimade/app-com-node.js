@@ -1,1 +1,1 @@
-# Aplica-o-com-node.js
+# Aplicação criada com node.js para fins empíricos
