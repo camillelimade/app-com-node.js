@@ -13,9 +13,13 @@ app.get("/rota3", function(req,res){
     res.send("Mensagem - teste de rota 3");
 });
 
-app.get("/rota_segura", function(req, res){
-    if(req.params.id == "1"){
-        res.send("Parabens você está agora na rota segura do site!");
+app.get("/rota55/:id", function(req, res){
+    if(req.params.id == 1){
+        res.send("Parabens você está agora na primeira rota segura do site!");
+    }else if(req.params.id == 2){
+        res.send("Parabens você está agora na segunda rota segura do site!");
+    }else{
+        res.send("Nenhuma rota encontrada")
     }
 });
 
