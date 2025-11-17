@@ -22,3 +22,8 @@ Essa aula se trata de um pequeno tutorial da instalação da biblioteca _Nodemon
 ### Aula 7 - <a href="https://youtu.be/UbhV0hD7_Wc?si=JA0k1n7e8DxS3hOE"> Instalação e configuração do MySQL </a>
 A aula apresenta um tutorial detalhado e completo sobre a instalação e configuração do banco de dados MySQL, incluindo a preparação do ambiente e instalação de seu pacote de ferramentas (MySQL Server, Workbench, Router e Shell).
 
+### Aula 8 - <a href="https://youtu.be/H5N95j-8w7U?si=ctJFkkEYAvMGDqDc"> Sequelize </a>
+A aula aborda a realização de uma conexão entre o Node.js e o banco de dados MySQL, orientando a criação do banco com o uso do MySQL 8.0 Command Line Client, por via de comandos como `SHOW DATABASES;`, `CREATE DATABASE;` e `USE database;`.
+Após a criação, é apresentada a conexão utilizando o módulo <a href="https://sequelize.org/"> Sequelize</a>, que oferece diversas funcionalidades, como a simplificação da criação de tabelas, busca de registros, execução de consultas e inserção de dados.
+A instalação do Sequelize foi feita inteiramente pelo terminal do VS Code, resultando na atualização do arquivo package-lock,json no registro das novas dependências.
+A configuração do banco de dados foi organizada por meio da criação de uma nova pasta chamada models, estruturada em JavaScript.
