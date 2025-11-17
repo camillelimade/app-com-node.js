@@ -27,3 +27,6 @@ A aula aborda a realização de uma conexão entre o Node.js e o banco de dados 
 Após a criação, é apresentada a conexão utilizando o módulo <a href="https://sequelize.org/"> Sequelize</a>, que oferece diversas funcionalidades, como a simplificação da criação de tabelas, busca de registros, execução de consultas e inserção de dados.
 A instalação do Sequelize foi feita inteiramente pelo terminal do VS Code, resultando na atualização do arquivo package-lock,json no registro das novas dependências.
 A configuração do banco de dados foi organizada por meio da criação de uma nova pasta chamada models, estruturada em JavaScript.
+
+### Aula 9 - <a href="https://youtu.be/V73wLSbnF_k?si=6-kHawucNIYznDWi"> Criando uma TABELA e inserindo REGISTROS no BANCO DE DADOS </a>
+A aula apresenta um passo a passo prático sobre como estruturar uma tabela em um banco de dados utilizando Node.js e Sequelize, demonstrando a definição dos campos e tipos de dados, além da inserção de registros manualmente para popular a tabela e validar seu funcionamento por meio de testes. O vídeo também evidencia características do uso do MySQL como o auto increment automaticamente gerado pela interface.
