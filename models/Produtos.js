@@ -4,7 +4,7 @@ const db = require('./db');
 const Produtos = db.sequelize.define("produtos", {
     nome: {
         type: db.Sequelize.STRING,
-        allowNull: false,
+        allowNull: false, // define que esse campo não pode ser nulo
     },
     preco: {
         type: db.Sequelize.DOUBLE,

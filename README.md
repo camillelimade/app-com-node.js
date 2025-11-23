@@ -30,3 +30,12 @@ A configuração do banco de dados foi organizada por meio da criação de uma n
 
 ### Aula 9 - <a href="https://youtu.be/V73wLSbnF_k?si=6-kHawucNIYznDWi"> Criando uma TABELA e inserindo REGISTROS no BANCO DE DADOS </a>
 A aula apresenta um passo a passo prático sobre como estruturar uma tabela em um banco de dados utilizando Node.js e Sequelize, demonstrando a definição dos campos e tipos de dados, além da inserção de registros manualmente para popular a tabela e validar seu funcionamento por meio de testes. O vídeo também evidencia características do uso do MySQL como o auto increment automaticamente gerado pela interface.
+
+### Aula 10 - <a href="https://youtu.be/i89Wz-T-C7w?si=YPuMrdR84zQMLSfv"> Como usar o INSOMNIA para testar Requisições HTTP</a>
+
+A aula demonstra a instalação e uso da aplicação de código aberto Insomnia, com a finalidade de testar o servidor de modo local, além disso é apresentada de maneira didática o manuseio de configurações do aplicativo como customização e efetuação de testes comuns.
+Ademais, é apresentado a importação de arquivos, criação de novas rotas, e inserção de registros pelo Insomnia via json e funções de POST, há uma explicação sobre o conceito de GET e POST.
+
+### Aula 11 - <a href="https://youtu.be/3pxg0ymiAYw?si=S5FMt80J0btfZIQt"> Body Parser </a>
+
+O vídeo orienta como instalar e configurar o Body Parser para que o backend consiga interpretar corretamente dados enviados em requisições HTTP, já que sem essa configuração, não é possível cadastrar produtos no banco de dados, pois o servidor não reconhece o corpo da requisição em formato JSON. Após a instalação veio a configuração do Body Parser, o backend passa a aceitar valores vindos de qualquer formulário, permitindo o cadastro de produtos com sucesso no MySQL usando Sequelize. A ferramenta de testes Insomnia permitiu a realização da capacidade do servidor para receber e interpretar dados.
