@@ -17,7 +17,44 @@ app.post("/cadastro", function(req,res){
         res.send("Erro ao cadastrar produto " + erro);
     })
 });
+app.get("/", function(req,res){
+    Produtos.findAll().then(function(produtos){
+        res.send({produtos: produtos});
+    }).catch(function(erro){
+        res.send("Erro ao buscar os dados" + erro);
+    });
+    // uso do método findAll do Sequelize
+});
 
+app.patch("/atualizar/:id", function(req, res){
+    Produtos.update({
+        nome: req.body.nome,
+        preco: req.body.preco,
+        descricao: req.body.descricao},
+        {where: {"id" : req.params.id}}
+    ).then(function(){
+        res.send("Sucesso ao atualizar os dados do produto!");
+    }).catch(function(erro){
+        res.send("Erro ao atualizar os dados do produto: " + erro);
+    })
+    // .update é método de atualizar do Sequelize
+})
+
+app.delete("/deletar/:id" , function(req, res){
+    Produtos.destroy({where:{"id": req.params.id}}).then(function(){
+        res.send("Produto deletado com sucesso!");
+    }).catch(function(erro){
+        res.send("Não foi possível deletar o produto: " + erro);
+    })
+})
+
+app.get("/:nome", function(req, res){
+    Produtos.findAll({where: {"nome": req.params.nome}}).then(function(produto){
+        res.send(produto);
+    }).catch(function(erro){
+        res.send("Erro ao realizar a consulta " + erro);
+    })
+})
 app.get("/", function(req, res){
     res.send("Mensagem - teste de rota principal");
 });

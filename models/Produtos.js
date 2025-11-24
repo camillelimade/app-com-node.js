@@ -8,11 +8,11 @@ const Produtos = db.sequelize.define("produtos", {
     },
     preco: {
         type: db.Sequelize.DOUBLE,
-        allowNull: false,
+        allowNull: false, 
     },
     descricao:{
         type: db.Sequelize.TEXT,
-        allowNull: false,
+        allowNull: false, // se fosse opcional era só trocar por true
     }
     }
 );
