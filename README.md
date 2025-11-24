@@ -39,3 +39,8 @@ Ademais, é apresentado a importação de arquivos, criação de novas rotas, e 
 ### Aula 11 - <a href="https://youtu.be/3pxg0ymiAYw?si=S5FMt80J0btfZIQt"> Body Parser </a>
 
 O vídeo orienta como instalar e configurar o Body Parser para que o backend consiga interpretar corretamente dados enviados em requisições HTTP, já que sem essa configuração, não é possível cadastrar produtos no banco de dados, pois o servidor não reconhece o corpo da requisição em formato JSON. Após a instalação veio a configuração do Body Parser, o backend passa a aceitar valores vindos de qualquer formulário, permitindo o cadastro de produtos com sucesso no MySQL usando Sequelize. A ferramenta de testes Insomnia permitiu a realização da capacidade do servidor para receber e interpretar dados.
+
+### Aula 12 - <a href="https://youtu.be/V6PpkqnfxEc?si=tSOwy28F3Dv43tAM"> Desfecho do Curso </a>
+Esta aula abordou a implementação completa das operações CRUD (Create, Read, Update e Delete) utilizando os métodos do Sequelize e testando cada funcionalidade por meio de rotas acessadas no Insomnia. Entre as operações realizadas, estiveram o cadastro de produtos, a listagem de todos os registros, a atualização de dados usando parâmetros de ID e a busca com filtragem pelo nome.
+
+O curso apresentou de forma didática e prática os conceitos básicos de Node.js e demonstrou como utilizar o npm para instalar dependências que auxiliam no desenvolvimento de aplicações reais. Além disso, revisou a instalação de ferramentas com as quais eu já tinha familiaridade, como o VS Code, e me introduziu ao uso de outras, como o banco de dados MySQL e a realização de testes no Insomnia. Com isso, desenvolvi habilidades essenciais para a manipulação de dados como desenvolvedora backend.
